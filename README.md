@@ -1,5 +1,3 @@
-# skip
-A auto ad skipper.
 # Skip ⏭️ 🧮
 
 A clever 2-in-1 native Android utility. On the surface, it functions as a standard, fully operational calculator. In the background, it utilizes Android Accessibility Services to automatically skip YouTube Music advertisements.
