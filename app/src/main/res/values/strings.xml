@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">skip</string>
+    <string name="accessibility_service_name">Skip Accessibility Service</string>
+    <string name="accessibility_service_description">Service that listens to YouTube Music UI and attempts to skip ads via accessibility actions.</string>
+</resources>

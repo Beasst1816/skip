@@ -1,0 +1,107 @@
+# .gitignore for an Android/Gradle project
+# Based on GitHub's android.gitignore with additions for security-sensitive files
+
+###############################################################################
+# Build / output
+###############################################################################
+
+# Gradle build cache
+.gradle/
+
+# Gradle build output
+/**/build/
+/build/
+
+# Android Studio captures (screen recordings, etc.)
+/captures/
+
+# Generated files
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+###############################################################################
+# Local configuration files
+###############################################################################
+
+# SDK path, do not commit
+local.properties
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.iws
+
+# User-specific files
+*.log
+*.swp
+
+###############################################################################
+# Keystores, secrets, env files (security-sensitive)
+###############################################################################
+
+# Android signing keys (do NOT commit your keystores or passwords)
+*.jks
+*.keystore
+debug.keystore
+
+# Properties and secret files
+secrets.properties
+secrets.yml
+*.properties.secret
+*.env
+.env.*
+
+# Firebase/Google Services files sometimes contain credentials
+google-services.json
+GoogleService-Info.plist
+
+###############################################################################
+# Native / NDK
+###############################################################################
+
+# CMake / ndk-build intermediate files
+.externalNativeBuild/
+.cxx/
+
+###############################################################################
+# IDE/tooling
+###############################################################################
+
+# VS Code
+/.vscode/
+
+###############################################################################
+# Misc
+###############################################################################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# JetBrains patch & local history
+.idea/*/workspace.xml
+.idea/*/tasks.xml
+.idea/dictionaries
+.idea/shelf
+
+# Generated native libraries
+*.so
+
+# Crashlytics / Fabric
+crashlytics-build.properties
+
+# Temporary files created by build tools
+*.orig
+
+# Ignore local debug/release outputs
+*.bundle
+
+# Keep the repository clean - ignore large binary blobs that are generated
+*.hprof
+
+# End of .gitignore

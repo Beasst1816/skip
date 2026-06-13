@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="calculator_bg">#1a1a1a</color>
+    <color name="btn_number">#424242</color>
+    <color name="btn_operator">#FF9800</color>
+    <color name="btn_clear">#F44336</color>
+    <color name="btn_equals">#4CAF50</color>
+</resources>
